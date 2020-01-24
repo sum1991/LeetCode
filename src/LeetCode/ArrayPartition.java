@@ -2,9 +2,6 @@ package LeetCode;
 import java.util.Arrays;
 
 public class ArrayPartition {
-
-
-
     public int arrpairsum(int nums[]){
         Arrays.sort(nums);
         int groupBy = 2;
