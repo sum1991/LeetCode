@@ -24,8 +24,12 @@ public class main {
         // int[] heights = {1,1,4,2,1,3};
         // HeightChecker hc = new HeightChecker();
 
-        int[] sortParity = {4,2,5,7};
-        SortParity sp = new SortParity();
-        System.out.println(sp.sortArrayByParityII(sortParity).toString());
+        // int[] sortParity = {4,2,5,7};
+        // SortParity sp = new SortParity();
+        //System.out.println(sp.sortArrayByParityII(sortParity).toString());
+
+        emailAddr addr = new emailAddr();
+        String[] h ={"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
+        System.out.println(addr.numUniqueEmails(h));
     }
 }
