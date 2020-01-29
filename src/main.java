@@ -19,9 +19,13 @@ public class main {
         int param_4 = obj.ping(3002);
         System.out.println(param_4);*/
 
-        String[] s ={"cba","daf","ghi"};
-        DeleteColumn dc = new DeleteColumn();
-        dc.minDeletionSize(s);
-        System.out.println(dc.minDeletionSize(s));
+        //String[] s ={"cba","daf","ghi"};
+        //DeleteColumn dc = new DeleteColumn();
+        // int[] heights = {1,1,4,2,1,3};
+        // HeightChecker hc = new HeightChecker();
+
+        int[] sortParity = {4,2,5,7};
+        SortParity sp = new SortParity();
+        System.out.println(sp.sortArrayByParityII(sortParity).toString());
     }
 }

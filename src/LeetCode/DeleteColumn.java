@@ -10,15 +10,14 @@ public class DeleteColumn {
         boolean AddIndex=true;
         while(countChar<=A[0].length()-1){
             AddIndex = true;
-            for(int i=0;i>(A.length-1);i++){
-                if(A[i].charAt(countChar)<A[i+1].charAt(countChar)){
+            for(int i=0;i<(A.length-1);i++){
+                if(A[i].charAt(countChar)>A[i+1].charAt(countChar)){
                     index.add(countChar);
                     break;
                 }
             }
             countChar++;
         }
-
         return index.size();
     }
 }
