@@ -29,9 +29,10 @@ public class main {
         //System.out.println(sp.sortArrayByParityII(sortParity).toString());
 
         //emailAddr addr = new emailAddr();
-        subdomain sb = new subdomain();
+        Reverse3 rvr = new Reverse3();
         //String[] h ={"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
-        String[] sh = {"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"};
-        System.out.println(sb.subdomainVisits(sh));
+        // String[] sh = {"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"};
+        String val ="Let's take LeetCode contest";
+        System.out.println(rvr.reverseWords(val));
     }
 }
