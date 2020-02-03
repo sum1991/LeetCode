@@ -28,8 +28,10 @@ public class main {
         // SortParity sp = new SortParity();
         //System.out.println(sp.sortArrayByParityII(sortParity).toString());
 
-        emailAddr addr = new emailAddr();
-        String[] h ={"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
-        System.out.println(addr.numUniqueEmails(h));
+        //emailAddr addr = new emailAddr();
+        subdomain sb = new subdomain();
+        //String[] h ={"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
+        String[] sh = {"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"};
+        System.out.println(sb.subdomainVisits(sh));
     }
 }
