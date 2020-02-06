@@ -29,10 +29,13 @@ public class main {
         //System.out.println(sp.sortArrayByParityII(sortParity).toString());
 
         //emailAddr addr = new emailAddr();
-        Reverse3 rvr = new Reverse3();
+        //Reverse3 rvr = new Reverse3();
         //String[] h ={"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
         // String[] sh = {"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"};
-        String val ="Let's take LeetCode contest";
-        System.out.println(rvr.reverseWords(val));
+        // String val ="Let's take LeetCode contest";
+        MinRange mr = new MinRange();
+        int[] A = {1};
+        int K =0;
+        System.out.println(mr.smallestRangeI(A,K));
     }
 }
