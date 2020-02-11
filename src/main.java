@@ -41,7 +41,10 @@ public class main {
 
         //RSortArray rsa = new RSortArray();
         //StepsToZero sz= new StepsToZero();
-        DefrangingIP dip = new DefrangingIP();
-        System.out.println(dip.defangIPaddr("1.1.1.1"));
+        //DefrangingIP dip = new DefrangingIP();
+
+        DecompressArray da = new DecompressArray();
+        int[] nums ={1,2,3,4};
+        System.out.println(da.decompressRLElist(nums).toString());
     }
 }
