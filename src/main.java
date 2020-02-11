@@ -33,9 +33,15 @@ public class main {
         //String[] h ={"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
         // String[] sh = {"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"};
         // String val ="Let's take LeetCode contest";
-        MinRange mr = new MinRange();
-        int[] A = {1};
-        int K =0;
-        System.out.println(mr.smallestRangeI(A,K));
+        // MinRange mr = new MinRange();
+        // int[] A = {1};
+        // int K =0;
+        //int[] arr1 = {2,3,1,3,2,4,6,7,9,2,19};
+        //int[] arr2 = {2,1,4,3,9,6};
+
+        //RSortArray rsa = new RSortArray();
+        //StepsToZero sz= new StepsToZero();
+        DefrangingIP dip = new DefrangingIP();
+        System.out.println(dip.defangIPaddr("1.1.1.1"));
     }
 }
