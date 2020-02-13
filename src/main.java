@@ -45,7 +45,10 @@ public class main {
 
         // DecompressArray da = new DecompressArray();
         //int[] nums ={1,2,3,4};
-        SubtractProductAndSum sps = new SubtractProductAndSum();
-        System.out.println(sps.subtractProductAndSum(234));
+        //SubtractProductAndSum sps = new SubtractProductAndSum();
+        JewelsAndStones jsclass = new JewelsAndStones();
+        String j ="aA";
+        String s= "aAAbbbb";
+        System.out.println(jsclass.numJewelsInStones(j,s));
     }
 }
