@@ -43,8 +43,9 @@ public class main {
         //StepsToZero sz= new StepsToZero();
         //DefrangingIP dip = new DefrangingIP();
 
-        DecompressArray da = new DecompressArray();
-        int[] nums ={1,2,3,4};
-        System.out.println(da.decompressRLElist(nums).toString());
+        // DecompressArray da = new DecompressArray();
+        //int[] nums ={1,2,3,4};
+        SubtractProductAndSum sps = new SubtractProductAndSum();
+        System.out.println(sps.subtractProductAndSum(234));
     }
 }
