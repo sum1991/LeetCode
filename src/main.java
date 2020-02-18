@@ -52,7 +52,8 @@ public class main {
         // BalancedString bs = new BalancedString();
         // String s= "RLLLLRRRLR";
         // max69number mx = new max69number();
-        toLowerCase tolow = new toLowerCase();
-        System.out.println(tolow.toLowerValue("hello"));
+        int[][] vpval = {{1,1},{3,4},{-1,0}};
+        vap vp = new vap();
+        System.out.println(vp.minTimeToVisitAllPoints(vpval));
     }
 }
