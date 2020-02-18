@@ -46,9 +46,13 @@ public class main {
         // DecompressArray da = new DecompressArray();
         //int[] nums ={1,2,3,4};
         //SubtractProductAndSum sps = new SubtractProductAndSum();
-        JewelsAndStones jsclass = new JewelsAndStones();
-        String j ="aA";
-        String s= "aAAbbbb";
-        System.out.println(jsclass.numJewelsInStones(j,s));
+        // JewelsAndStones jsclass = new JewelsAndStones();
+        // String j ="aA";
+        // String s= "aAAbbbb";
+        // BalancedString bs = new BalancedString();
+        // String s= "RLLLLRRRLR";
+        // max69number mx = new max69number();
+        toLowerCase tolow = new toLowerCase();
+        System.out.println(tolow.toLowerValue("hello"));
     }
 }
