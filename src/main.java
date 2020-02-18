@@ -52,8 +52,9 @@ public class main {
         // BalancedString bs = new BalancedString();
         // String s= "RLLLLRRRLR";
         // max69number mx = new max69number();
-        int[][] vpval = {{1,1},{3,4},{-1,0}};
-        vap vp = new vap();
-        System.out.println(vp.minTimeToVisitAllPoints(vpval));
+        // int[][] vpval = {{1,1},{3,4},{-1,0}};
+        // vap vp = new vap();
+        decryptAlphabet aA = new decryptAlphabet();
+        System.out.println(aA.freqAlphabets("12345678910#11#12#13#14#15#16#17#18#19#20#21#22#23#24#25#26#"));
     }
 }
