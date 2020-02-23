@@ -54,7 +54,9 @@ public class main {
         // max69number mx = new max69number();
         // int[][] vpval = {{1,1},{3,4},{-1,0}};
         // vap vp = new vap();
-        decryptAlphabet aA = new decryptAlphabet();
-        System.out.println(aA.freqAlphabets("12345678910#11#12#13#14#15#16#17#18#19#20#21#22#23#24#25#26#"));
+        // decryptAlphabet aA = new decryptAlphabet();
+        replaceGRE rgre = new replaceGRE();
+        int[] arr = {17,18,5,4,6,1};
+        System.out.println(rgre.replaceElements(arr).toString());
     }
 }
