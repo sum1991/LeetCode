@@ -55,8 +55,15 @@ public class main {
         // int[][] vpval = {{1,1},{3,4},{-1,0}};
         // vap vp = new vap();
         // decryptAlphabet aA = new decryptAlphabet();
-        replaceGRE rgre = new replaceGRE();
-        int[] arr = {17,18,5,4,6,1};
-        System.out.println(rgre.replaceElements(arr).toString());
+        /*replaceGRE rgre = new replaceGRE();
+        int[] arr = {17,18,5,4,6,1};*/
+        //SingleNumber sn = new SingleNumber();
+
+        int[] ar = {-4,-1,0,3,10};
+        SqSortArray sqarr = new SqSortArray();
+        // int co = sn.numberCounter(ar);
+        int[] result = sqarr.sortedSquares(ar);
+
+        System.out.println(co);
     }
 }
