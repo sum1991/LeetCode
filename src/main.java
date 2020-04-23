@@ -63,11 +63,14 @@ public class main {
         //SqSortArray sqarr = new SqSortArray();
         // int co = sn.numberCounter(ar);
         //int[] result = sqarr.sortedSquares(ar);
-        String str = "UD";
-        lcase lc = new lcase();
-        lc.toLowerCase(str);
+        //String str = "UD";
+        //lcase lc = new lcase();
+        //lc.toLowerCase(str);
         //RobotReturn rr = new RobotReturn();
         //rr.judgeCircle(str);
         //System.out.println(co);
+        String[] arr = {"gin", "zen", "gig", "msg"};
+        MorseCode mc = new MorseCode();
+        System.out.println(mc.uniqueMorseRepresentations(arr));
     }
 }
