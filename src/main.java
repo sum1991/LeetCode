@@ -59,11 +59,15 @@ public class main {
         int[] arr = {17,18,5,4,6,1};*/
         //SingleNumber sn = new SingleNumber();
 
-        int[] ar = {-4,-1,0,3,10};
-        SqSortArray sqarr = new SqSortArray();
+        //int[] ar = {-4,-1,0,3,10};
+        //SqSortArray sqarr = new SqSortArray();
         // int co = sn.numberCounter(ar);
-        int[] result = sqarr.sortedSquares(ar);
-
-        System.out.println(co);
+        //int[] result = sqarr.sortedSquares(ar);
+        String str = "UD";
+        lcase lc = new lcase();
+        lc.toLowerCase(str);
+        //RobotReturn rr = new RobotReturn();
+        //rr.judgeCircle(str);
+        //System.out.println(co);
     }
 }
